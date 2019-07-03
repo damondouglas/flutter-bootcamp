@@ -10,11 +10,19 @@ class Home extends StatelessWidget {
        title: Text('London App Brewery Flutter Bootcamp Challenges'),
      ),
      body: Column(
+       crossAxisAlignment: CrossAxisAlignment.start,
        children: <Widget>[
          FlatButton(
            child: Text('1. Flutter Layouts Challenge'),
            onPressed: () {
             Navigator.pushNamed(context, '/flutter-layouts-challenge');
+           },
+         ),
+
+         FlatButton(
+           child: Text('2. Dicee App'),
+           onPressed: () {
+             Navigator.pushNamed(context, '/dicee');
            },
          ),
        ],
