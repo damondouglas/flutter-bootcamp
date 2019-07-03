@@ -1,4 +1,15 @@
 .packages
+assets/FontManifest.json
+assets/fonts/Raleway-Italic.ttf
+assets/fonts/Raleway-Regular.ttf
+assets/fonts/RobotoMono-Bold.ttf
+assets/fonts/RobotoMono-Regular.ttf
+assets/images/dice1.png
+assets/images/dice2.png
+assets/images/dice3.png
+assets/images/dice4.png
+assets/images/dice5.png
+assets/images/dice6.png
 index.html
 main.dart.js
 packages/$sdk/_internal/ddc_sdk.sum
@@ -13,10 +24,6 @@ packages/$sdk/dev_compiler/kernel/amd/require.js
 packages/$sdk/dev_compiler/kernel/common/dart_sdk.js
 packages/$sdk/dev_compiler/kernel/common/run.js
 packages/$sdk/dev_compiler/kernel/es6/dart_sdk.js
-packages/$sdk/dev_compiler/kernel/legacy/dart_library.js
-packages/$sdk/dev_compiler/kernel/legacy/dart_sdk.js
-packages/$sdk/dev_compiler/legacy/dart_library.js
-packages/$sdk/dev_compiler/legacy/dart_sdk.js
 packages/$sdk/dev_compiler/web/dart_stack_trace_mapper.js
 packages/$sdk/dev_compiler/web/ddc_web_compiler.js
 packages/analyzer/src/summary/format.fbs
