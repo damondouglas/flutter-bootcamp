@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["swiss_knife|lib/src/utils.dart","intl|lib/intl.dart","intl|lib/date_symbol_data_local.dart","intl|lib/message_lookup_by_library.dart","intl|lib/src/intl_helpers.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

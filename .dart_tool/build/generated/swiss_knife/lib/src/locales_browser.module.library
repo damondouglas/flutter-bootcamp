@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["intl|lib/intl.dart","intl|lib/intl_browser.dart","swiss_knife|lib/src/locales.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["html"],"hasMain":false}
