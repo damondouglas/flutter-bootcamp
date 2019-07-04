@@ -5,14 +5,6 @@ class FlutterLayoutsChallange extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        actions: <Widget>[
-          FlatButton(
-            onPressed: () {
-              Navigator.pushNamed(context, '/');
-            },
-            child: Text('HOME', style: TextStyle(color: Colors.white),),
-          ),
-        ],
         backgroundColor: Colors.teal,
         title: Text('Flutter Layouts Challenge'),
       ),

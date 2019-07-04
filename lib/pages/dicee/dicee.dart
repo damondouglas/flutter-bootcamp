@@ -9,13 +9,6 @@ class DicePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Dicee'),
         backgroundColor: Colors.red,
-        actions: <Widget>[
-          FlatButton(
-            textColor: Colors.white,
-            child: Text('HOME'),
-            onPressed: () => Navigator.pushNamed(context, '/'),
-          ),
-        ],
       ),
       body: Dicee(),
     );
