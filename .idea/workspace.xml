@@ -71,24 +71,6 @@
               <item name="londonappbrewery-flutter-bootcamp" type="b2602c69:ProjectViewProjectNode" />
               <item name="londonappbrewery-flutter-bootcamp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="londonappbrewery-flutter-bootcamp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="londonappbrewery-flutter-bootcamp" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="londonappbrewery-flutter-bootcamp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="londonappbrewery-flutter-bootcamp" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="londonappbrewery-flutter-bootcamp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="londonappbrewery-flutter-bootcamp" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -151,12 +133,12 @@
       <workItem from="1562208572795" duration="1591000" />
       <workItem from="1562213431354" duration="2993000" />
       <workItem from="1562223576183" duration="755000" />
-      <workItem from="1562263739594" duration="12822000" />
+      <workItem from="1562263739594" duration="13069000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37140000" />
+    <option name="totallyTimeSpent" value="37387000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
