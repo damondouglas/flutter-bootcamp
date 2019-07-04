@@ -37229,8 +37229,8 @@ N.ok.prototype={
 aX:function(){return new N.re(Q.IX(1,6),Q.IX(1,6),C.u)}}
 N.re.prototype={
 Ia:function(){this.aO(new N.Fk(this))},
-O:function(a){var u=null,t=this.gI9()
-return new T.j2(C.a0,u,u,T.MF(H.f([T.LN(new T.ia(C.ee,N.wV(U.M_("images/dice"+this.d+".png"),t),u)),T.LN(new T.ia(C.ee,N.wV(U.M_("images/dice"+this.e+".png"),t),u))],[N.aG]),C.bu,C.cT,C.b0),u)},
+O:function(a){var u="images/dicee/dice",t=null,s=this.gI9()
+return new T.j2(C.a0,t,t,T.MF(H.f([T.LN(new T.ia(C.ee,N.wV(U.M_(u+this.d+".png"),s),t)),T.LN(new T.ia(C.ee,N.wV(U.M_(u+this.e+".png"),s),t))],[N.aG]),C.bu,C.cT,C.b0),t)},
 $aak:function(){return[N.ok]}}
 N.Fk.prototype={
 $0:function(){var u=this.a
