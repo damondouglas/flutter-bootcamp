@@ -1,4 +1,5 @@
 import 'package:flutter_web/material.dart';
+import 'package:londonappbrewery_flutter_bootcamp/pages/quiz/quiz.dart';
 import 'pages/flutter_layouts_challenge/flutter_layouts_challenge.dart';
 import 'pages/dicee/dicee.dart';
 import 'pages/magicball/magicball.dart';
@@ -21,6 +22,7 @@ class MainApp extends StatelessWidget {
         '/dicee': (context) => DicePage(),
         '/magicball': (context) => BallPage(),
         '/xylophone': (context) => XylophonePage(),
+        '/quiz': (context) => Quizzler(),
       },
       title: 'London Appbrewery Flutter Bootcamp',
     );

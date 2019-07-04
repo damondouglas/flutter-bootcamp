@@ -36,6 +36,12 @@ class Home extends StatelessWidget {
               Navigator.pushNamed(context, '/xylophone');
             },
           ),
+          FlatButton(
+            child: Text('5. Quizzler'),
+            onPressed: () {
+              Navigator.pushNamed(context, '/quiz');
+            },
+          ),
         ],
       ),
     );
