@@ -30,6 +30,12 @@ class Home extends StatelessWidget {
               Navigator.pushNamed(context, '/magicball');
             },
           ),
+          FlatButton(
+            child: Text('4. Xylophone'),
+            onPressed: () {
+              Navigator.pushNamed(context, '/xylophone');
+            },
+          ),
         ],
       ),
     );

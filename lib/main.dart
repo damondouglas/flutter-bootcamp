@@ -2,6 +2,7 @@ import 'package:flutter_web/material.dart';
 import 'pages/flutter_layouts_challenge/flutter_layouts_challenge.dart';
 import 'pages/dicee/dicee.dart';
 import 'pages/magicball/magicball.dart';
+import 'pages/xylophone/xylophone.dart';
 import 'pages/home.dart';
 
 void main() {
@@ -19,6 +20,7 @@ class MainApp extends StatelessWidget {
         '/flutter-layouts-challenge': (context) => FlutterLayoutsChallange(),
         '/dicee': (context) => DicePage(),
         '/magicball': (context) => BallPage(),
+        '/xylophone': (context) => XylophonePage(),
       },
       title: 'London Appbrewery Flutter Bootcamp',
     );
