@@ -40,7 +40,7 @@ class _DiceeState extends State<Dicee> {
             child: Padding(
               padding: const EdgeInsets.all(16.0),
               child: FlatButton(
-                child: Image.asset('images/dice${dice1}.png'),
+                child: Image.asset('images/dicee/dice${dice1}.png'),
                 onPressed: rollDice,
               ),
             ),
@@ -49,7 +49,7 @@ class _DiceeState extends State<Dicee> {
             child: Padding(
               padding: const EdgeInsets.all(16.0),
               child: FlatButton(
-                child: Image.asset('images/dice${dice2}.png'),
+                child: Image.asset('images/dicee/dice${dice2}.png'),
                 onPressed: rollDice,
               ),
             ),
