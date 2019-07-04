@@ -1,7 +1,7 @@
 import 'package:flutter_web/material.dart';
-import 'package:londonappbrewery_flutter_bootcamp/pages/flutter_layouts_challenge/flutter_layouts_challenge.dart';
-import 'package:londonappbrewery_flutter_bootcamp/pages/dicee/dicee.dart';
-import 'package:londonappbrewery_flutter_bootcamp/pages/magicball/magicball.dart';
+import 'pages/flutter_layouts_challenge/flutter_layouts_challenge.dart';
+import 'pages/dicee/dicee.dart';
+import 'pages/magicball/magicball.dart';
 import 'pages/home.dart';
 
 void main() {
