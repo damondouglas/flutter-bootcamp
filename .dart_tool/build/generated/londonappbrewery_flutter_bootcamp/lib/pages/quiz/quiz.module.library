@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["flutter_web|lib/cupertino.dart","flutter_web|lib/material.dart","londonappbrewery_flutter_bootcamp|lib/pages/quiz/service.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}
