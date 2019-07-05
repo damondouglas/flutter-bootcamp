@@ -2,3 +2,5 @@
 .packages
 .dart_tool
 build
+android
+ios

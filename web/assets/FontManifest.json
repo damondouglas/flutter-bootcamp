@@ -1,5 +1,13 @@
 [
   {
+    "family": "Home",
+    "fonts": [
+      {
+        "asset": "fonts/Home.ttf"
+      }
+    ]
+  },
+  {
     "family": "MaterialIcons",
     "fonts": [
       {

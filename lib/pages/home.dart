@@ -1,5 +1,6 @@
-import 'package:flutter_web/cupertino.dart';
 import 'package:flutter_web/material.dart';
+import 'dart:html';
+import 'package:londonappbrewery_flutter_bootcamp/home_icons.dart' as icons;
 
 class Home extends StatelessWidget {
   @override
@@ -8,6 +9,17 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         iconTheme: IconThemeData(),
         title: Text('London App Brewery Flutter Bootcamp Challenges'),
+        actions: <Widget>[
+          IconButton(
+            onPressed: () {
+              var url =
+                  "https://github.com/damondouglas/londonappbrewery-flutter-bootcamp";
+              window.open(url, 'GitHub');
+            },
+            icon: Icon(icons.Home.github_circled),
+            color: Colors.white,
+          ),
+        ],
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
