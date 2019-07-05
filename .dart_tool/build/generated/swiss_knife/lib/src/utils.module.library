@@ -1,1 +1,0 @@
-{"isEntrypoint":false,"deps":["intl|lib/intl.dart","intl|lib/date_symbol_data_local.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

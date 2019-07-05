@@ -1,1 +1,0 @@
-{"isEntrypoint":false,"deps":["swiss_knife|lib/swiss_knife_utils.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","html","typed_data","web_audio","convert"],"hasMain":false}
