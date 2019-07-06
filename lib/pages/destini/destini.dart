@@ -35,7 +35,7 @@ class _StoryPageState extends State<StoryPage> {
         constraints: BoxConstraints.expand(),
         child: SafeArea(
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               Expanded(
                 flex: 12,
@@ -65,32 +65,46 @@ class _StoryPageState extends State<StoryPage> {
               ),
               Expanded(
                 flex: 12,
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: storyBrain.current.choices.map((Story story) {
-                    return FlatButton(
-                      onPressed: () {
-                        setState(() {
-                          storyBrain.current =
-                              storyBrain.current.choose(story.title);
-                          _showDialog(context);
-                        });
-                      },
-                      child: Text(
-                        story.title,
-                        style: TextStyle(
-                          fontSize: 25.0,
-                        ),
-                      ),
-                    );
-                  }).toList(),
-                ),
+                child: buildChoices(context),
               )
             ],
           ),
         ),
       ),
     );
+  }
+
+  Widget buildChoices(BuildContext context) {
+    var children = storyBrain.current.choices.map((Story story) {
+      return FlatButton(
+        onPressed: () {
+          setState(() {
+            storyBrain.current = storyBrain.current.choose(story.title);
+            _showDialog(context);
+          });
+        },
+        child: Center(
+          child: Text(
+            story.title,
+            style: TextStyle(
+              fontSize: 25.0,
+            ),
+          ),
+        ),
+      );
+    }).toList();
+
+    if (MediaQuery.of(context).size.width > 800) {
+      return Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: children,
+      );
+    } else {
+      return Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: children,
+      );
+    }
   }
 
   void _showDialog(BuildContext context) {
